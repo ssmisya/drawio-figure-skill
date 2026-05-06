@@ -1,0 +1,190 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Policy Matrix">
+    <mxGraphModel dx="1000" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="640" math="0" shadow="0">
+      <root>
+<mxCell id="0" />
+<mxCell id="1" parent="0" />
+<mxCell id="title" value="Scenario x Risk Category Policy Matrix" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="40" y="24" width="920" height="44" as="geometry" />
+</mxCell>
+<mxCell id="subtitle" value="Editable draw.io reconstruction: text, policy chips, grid lines, and legend are native objects." style="text;html=1;strokeColor=none;fillColor=none;fontSize=12;fontColor=#475569;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="160" y="66" width="680" height="26" as="geometry" />
+</mxCell>
+<mxCell id="panel" value="" style="rounded=1;arcSize=2;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#94A3B8;strokeWidth=1.4;shadow=1;" vertex="1" parent="1">
+  <mxGeometry x="40" y="120" width="920" height="440" as="geometry" />
+</mxCell>
+<mxCell id="h0" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="192" as="sourcePoint" />
+    <mxPoint x="940" y="192" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="h1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="272" as="sourcePoint" />
+    <mxPoint x="940" y="272" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="h2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="352" as="sourcePoint" />
+    <mxPoint x="940" y="352" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="h3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="432" as="sourcePoint" />
+    <mxPoint x="940" y="432" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="h4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="512" as="sourcePoint" />
+    <mxPoint x="940" y="512" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="h5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="40" y="592" as="sourcePoint" />
+    <mxPoint x="940" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v0" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="260" y="120" as="sourcePoint" />
+    <mxPoint x="260" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v1" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="430" y="120" as="sourcePoint" />
+    <mxPoint x="430" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v2" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="600" y="120" as="sourcePoint" />
+    <mxPoint x="600" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v3" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="770" y="120" as="sourcePoint" />
+    <mxPoint x="770" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v4" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="940" y="120" as="sourcePoint" />
+    <mxPoint x="940" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="v5" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#CBD5E1;strokeWidth=1;" edge="1" parent="1">
+  <mxGeometry relative="1" as="geometry">
+    <mxPoint x="1110" y="120" as="sourcePoint" />
+    <mxPoint x="1110" y="592" as="targetPoint" />
+  </mxGeometry>
+</mxCell>
+<mxCell id="header0" value="Mainstream Social" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontSize=13;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="268" y="134" width="154" height="44" as="geometry" />
+</mxCell>
+<mxCell id="header1" value="Protective Child-Safe" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontSize=13;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="438" y="134" width="154" height="44" as="geometry" />
+</mxCell>
+<mxCell id="header2" value="Permissive Legal-Baseline" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontSize=13;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="608" y="134" width="154" height="44" as="geometry" />
+</mxCell>
+<mxCell id="header3" value="Commercial Brand-Safe" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F8FAFC;strokeColor=#CBD5E1;fontSize=13;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="778" y="134" width="154" height="44" as="geometry" />
+</mxCell>
+<mxCell id="row0" value="01  Nudity, Sexual Content &amp; Fetish" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontStyle=1;fontColor=#4F46E5;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+  <mxGeometry x="56" y="206" width="190" height="52" as="geometry" />
+</mxCell>
+<mxCell id="chip0_0" value="A. General Safe" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="282" y="216" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip0_1" value="B. Family Safe" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="452" y="216" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip0_2" value="E. Creative Freedom" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="622" y="216" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip0_3" value="D. Lingerie Mode" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="792" y="216" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="row1" value="02  Violence, Hate &amp; Self-Harm" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontStyle=1;fontColor=#DC2626;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+  <mxGeometry x="56" y="286" width="190" height="52" as="geometry" />
+</mxCell>
+<mxCell id="chip1_0" value="A. Real-world" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="282" y="296" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip1_1" value="B. Zero Tolerance" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="452" y="296" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip1_2" value="E. Legal Compliance" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="622" y="296" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip1_3" value="D. Fiction Only" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#EF4444;dashed=1;fontColor=#EF0000;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="792" y="296" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="row2" value="03  Regulated Goods &amp; Substances" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontStyle=1;fontColor=#EA580C;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+  <mxGeometry x="56" y="366" width="190" height="52" as="geometry" />
+</mxCell>
+<mxCell id="chip2_0" value="A. Family Friendly" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="282" y="376" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip2_1" value="D. Minor Protection" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="452" y="376" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip2_2" value="B. Regional Permissive" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#EF4444;dashed=1;fontColor=#EF0000;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="622" y="376" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip2_3" value="C. Retail Pharmacy" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#EF4444;dashed=1;fontColor=#EF0000;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="792" y="376" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="row3" value="04  IP, Copyright &amp; Brand Safety" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontStyle=1;fontColor=#D97706;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+  <mxGeometry x="56" y="446" width="190" height="52" as="geometry" />
+</mxCell>
+<mxCell id="chip3_0" value="B. Commercial Clean" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="282" y="456" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip3_1" value="-" style="text;html=1;strokeColor=none;fillColor=none;fontSize=18;fontStyle=1;fontColor=#071B63;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="452" y="456" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip3_2" value="A. Parody Friendly" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#EF4444;dashed=1;fontColor=#EF0000;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="622" y="456" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip3_3" value="C. Brand Protection" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#EF4444;dashed=1;fontColor=#EF0000;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="792" y="456" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="row4" value="05  Cultural &amp; Religious Sensitivity" style="text;html=1;strokeColor=none;fillColor=none;fontSize=13;fontStyle=1;fontColor=#16A34A;align=left;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+  <mxGeometry x="56" y="526" width="190" height="52" as="geometry" />
+</mxCell>
+<mxCell id="chip4_0" value="A. Western Liberal" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="282" y="536" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip4_1" value="E. Max Neutrality" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="452" y="536" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip4_2" value="G. Mediterranean" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="622" y="536" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="chip4_3" value="C. Global Neutrality" style="rounded=1;arcSize=7;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;fontColor=#071B63;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="792" y="536" width="126" height="32" as="geometry" />
+</mxCell>
+<mxCell id="legend_box0" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#F4F0FF;strokeColor=#B8A7E8;dashed=0;strokeWidth=1.5;" vertex="1" parent="1">
+  <mxGeometry x="335" y="585" width="60" height="28" as="geometry" />
+</mxCell>
+<mxCell id="legend_text0" value="Adaptive" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#071B63;align=left;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="405" y="582" width="100" height="34" as="geometry" />
+</mxCell>
+<mxCell id="legend_box1" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#EF4444;dashed=1;strokeWidth=1.5;" vertex="1" parent="1">
+  <mxGeometry x="505" y="585" width="60" height="28" as="geometry" />
+</mxCell>
+<mxCell id="legend_text1" value="Shift" style="text;html=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=1;fontColor=#071B63;align=left;verticalAlign=middle;" vertex="1" parent="1">
+  <mxGeometry x="575" y="582" width="100" height="34" as="geometry" />
+</mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
