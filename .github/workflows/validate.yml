@@ -13,6 +13,8 @@ jobs:
         with:
           python-version: "3.11"
       - name: Generate examples
-        run: python scripts/make_minimal_examples.py
+        run: |
+          python scripts/make_minimal_examples.py
+          python scripts/make_gallery_images.py
       - name: Validate artifacts
         run: bash scripts/validate_artifacts.sh examples

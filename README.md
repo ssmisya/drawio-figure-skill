@@ -10,6 +10,36 @@ This skill helps coding agents turn screenshots, PNG mockups, and dense paper fi
 
 It is designed for paper figures, architecture diagrams, benchmark matrices, qualitative result galleries, and presentation-ready visuals where a flat bitmap is not enough.
 
+## Sketch First, Then Make It Editable
+
+A productive workflow is to use an image model for ideation, then use this skill for editable reconstruction:
+
+1. Ask **gpt-image-2** or another image model to generate a rough visual draft.
+2. Give the PNG draft to your coding agent.
+3. Ask the agent to load this skill and rebuild the figure as `.drawio` or `.pptx`.
+4. Polish the result in diagrams.net, PowerPoint, or Google Drive with all major elements still editable.
+
+Example prompt:
+
+```text
+First use gpt-image-2 to sketch a clean paper figure for a two-stage training pipeline.
+Then use this skill: https://github.com/ssmisya/drawio-figure-skill
+Reconstruct the sketch as editable draw.io. Search for matching SVG icons.
+Keep text, panels, arrows, tables, and chips editable. Do not flatten the whole figure into a bitmap.
+```
+
+## Before / After Gallery
+
+These examples show the intended workflow: use a rough image-model sketch to establish composition, then reconstruct it as an editable figure.
+
+| Rough PNG sketch | Editable reconstruction preview |
+|---|---|
+| ![rough policy matrix](examples/gallery/01_policy_matrix_before.png) | ![editable policy matrix preview](examples/gallery/01_policy_matrix_after.png) |
+| ![rough training pipeline](examples/gallery/02_training_pipeline_before.png) | ![editable training pipeline preview](examples/gallery/02_training_pipeline_after.png) |
+| ![rough qualitative case](examples/gallery/03_qualitative_case_before.png) | ![editable qualitative case preview](examples/gallery/03_qualitative_case_after.png) |
+
+The preview images are screenshots/renders for the README. The actual deliverables should be editable `.drawio` or `.pptx` files.
+
 ## Why This Exists
 
 Most "image to diagram" workflows silently produce a single flattened image. That is not useful when you need to revise text, move panels, align tables, or polish a camera-ready figure.
@@ -81,6 +111,14 @@ left panel = data construction, right panel = two-stage training, bottom strip =
 Use editable objects and a conference-paper visual style.
 ```
 
+### Start from a gpt-image-2 sketch
+
+```text
+Use gpt-image-2 to generate a polished sketch of a benchmark matrix figure.
+Then load https://github.com/ssmisya/drawio-figure-skill and reconstruct the sketch as editable draw.io.
+Preserve the visual style, but rebuild text, cells, chips, icons, arrows, and legend as editable objects.
+```
+
 ## Examples
 
 This repository includes a minimal generated example:
@@ -94,6 +132,7 @@ Generate or refresh them:
 
 ```bash
 python scripts/make_minimal_examples.py
+python scripts/make_gallery_images.py
 bash scripts/validate_artifacts.sh examples/minimal
 ```
 
@@ -163,10 +202,14 @@ unzip -t /tmp/figure.after.pptx
 ├── SKILL.md
 ├── README.md
 ├── examples/
+│   ├── gallery/
+│   │   ├── 01_policy_matrix_before.png
+│   │   └── 01_policy_matrix_after.png
 │   └── minimal/
 │       ├── policy_matrix.drawio
 │       └── policy_matrix.pptx
 ├── scripts/
+│   ├── make_gallery_images.py
 │   ├── make_minimal_examples.py
 │   └── validate_artifacts.sh
 └── LICENSE

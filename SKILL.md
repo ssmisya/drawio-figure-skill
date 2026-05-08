@@ -27,6 +27,22 @@ Images embedded in draw.io/PPTX remain movable/scalable but their internal pixel
 - If the user asks to upload/sync to Google Drive, generate and validate locally first, upload with `rclone copyto`, then read back or list the target to verify.
 - If both `.drawio` and `.pptx` are requested, reuse the same layout analysis and generate separate editable artifacts.
 
+## Sketch-First Workflow With Image Models
+
+Use this when the user wants an attractive figure but does not yet have a precise layout.
+
+1. Ask an image model such as `gpt-image-2` to produce a rough visual draft of the figure.
+2. Treat the generated PNG as a composition reference, not as the final artifact.
+3. Reconstruct the visible layout with this skill as editable `.drawio` or `.pptx`.
+4. Preserve the visual direction, spacing, color mood, and hierarchy, but rebuild text, boxes, arrows, tables, legends, icons, and chips as editable objects.
+5. If the image model creates unclear or misspelled text, replace it with clean text inferred from the user's intended content.
+
+Good user prompt:
+
+```text
+First generate a rough sketch with gpt-image-2. Then use drawio-figure to rebuild it as editable draw.io/PPTX. Keep all labels, cards, arrows, tables, and icons editable; do not flatten the figure into one image.
+```
+
 ## Image-to-Draw.io Reconstruction Workflow
 
 Use this when the user provides a screenshot/PNG and asks to convert it into editable draw.io.
